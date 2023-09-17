@@ -1,0 +1,70 @@
+.Notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+     
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 30px auto;
+    border-radius: 6px;
+     background-color: rgb(236, 156, 156);
+}
+
+.mainNote {
+    
+    display: flex;
+    gap: 14px;
+}
+
+.btnNote {
+    padding: 8px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff006e;
+    color: whitesmoke;
+}
+.btnNote:hover {
+    background-color: #581833;
+    transition: 0.2s ease-out;
+}
+
+.btnNote:active {
+    background-color: #8338ec;
+    transition: 0.2s ease-out;
+
+}
+
+.inputNote {
+    width: 200px;
+    height: 38px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #ff006e;
+    color: white;
+}
+
+.listNote {
+    list-style: none;
+    margin-top: 8px;
+    width: 200px;
+    height: 20px;
+}
+
+.listItem {
+    padding: 12px 24px;
+    border-radius: 6px;
+    background-color: #8338ec;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+     
+}
